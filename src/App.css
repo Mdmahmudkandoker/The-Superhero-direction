@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  word-break: break-word;
+}
+body{
+  background-image: url(https://wallpapercave.com/wp/eEFKE3H.jpg);
+  background-size: cover;
+  
+}
+header{
+  box-shadow: 0 0 5px 2px dimgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  color: white;
+  background-color: rgb(101, 134, 143);
+  margin-bottom: 15px;
+}
+.heading{
+  color: white;
+  background-color: rgb(101, 134, 143);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+nav{
+  display: flex;
+}
+nav h4{
+  margin: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width:150px;
+  height: 150px;
+  border-radius: 100px;
+}
+main{
+  width: 70%;
+  margin: 10px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+.card{
+  width: 25%;
+  margin: 10px;
+  box-shadow: 0 0 5px 2px dimgray;
+  padding: 5px;
+  background: linear-gradient(rgb(254, 255, 254), rgb(242, 253, 242));
+  box-shadow: 1px 2px 7px grey;
+  border-radius: 20px;
+}
+.card button{
+  color: royalblue;
+  border-color: royalblue;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+  margin: 4px auto;
+}
+.card button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: royalblue;
+}
+
+.cart{
+  margin: 10px;
+  box-shadow: 0 0 5px 2px dimgray;
+  color: aquamarine;
+  padding: 20px;
+  font-size: 15px;
+  /* background: linear-gradient(rgb(254, 255, 254), rgb(242, 253, 242)); */
+
+  border-radius: 15px;
+}
+.cart .card{
+  width: 80%;
+  margin: 10px;
+  box-shadow: 0 0 5px 2px dimgrey;
+  padding: 15px;
+  margin: 5px;
+  margin: auto;
+}
+
+.cart-card button{
+  color: hotpink;
+  border-color: hotpink;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+  margin: 4px auto;
+}
+.cart-card button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: hotpink;
+}
+
+.cart-card .container{
+  flex-direction: column;
+}
+.cart-card .card{
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-card .card img{
+  width: 50px;
+  height: 50px;
+}
